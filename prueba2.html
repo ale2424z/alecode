@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html> 
+<style>
+body  {
+  background-image: url("https://images.alphacoders.com/805/805180.jpg");
+  background-color: #cccccc;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+</style>
+
+<body> 
+     <center>   <h1>titlecode</h1></center>
+
+
+
+
+
+
+<center> <video width="900" height="400" controls>
+  <source src="https://i.imgur.com/ND0X1n5.mp4" type="video/mp4">
+
+</video>
+</center>
+
+</br> 
+
+
+<center>
+<img src="img_girl.jpg" alt="Girl in a jacket" width="900" height="600">
+</center>
+
+
+<p style="background-image: url('https://images.unsplash.com/photo-1588421357574-87938a86fa28?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80');">
+
+</body> 
+
+<script> 
+document.querySelector("body > center:nth-child(2) > video > source").src=window.location.href.replace(/.*\?/,"").split(",")[0]
+
+document.querySelector("body > center:nth-child(2) > video ").load()
+
+
+var image = document.querySelector("body > center:nth-child(4) > img");
+image.src =window.location.href.replace(/.*\?/,"").split(",")[1]
+  
+document.querySelector("body > center:nth-child(1) > h1").innerText=window.location.href.replace(/.*\?/,"").split(",")[2]
+
+
+</script> 
+
+
+</html>
